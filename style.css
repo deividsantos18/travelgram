@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    margin: 27px 0px 27px 35px;
+    align-items: center;
+    color: #EF5F4C;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    line-height: 160%;
+}
+
+.logo img {
+    margin-right: 8px;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 32px 20px 0px;
+    align-items: center;
+}
+
+.links ul li {
+    margin-left: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 150%;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #6C6C6C;
+}
+
+.usuaria {
+    display: flex;
+    margin: 32px;
+    justify-content: space-between;
+    color: #6C6C6C;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informacoes {
+    margin-left: 32px;
+    width: 384px;
+    height: 168px;
+}
+
+.informacoes h1 {
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #313131;
+}
+
+.informacoes p {
+    line-height: 170%;
+}
+
+.detalhes {
+    list-style: none;
+    margin: 68px 32px;
+    
+}
+
+.detalhes li {
+    margin-bottom: 16px;
+    
+}
+
+.detalhes li img {
+    margin-right: 8px;
+    
+}

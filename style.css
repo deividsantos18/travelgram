@@ -45,7 +45,7 @@
 
 .usuaria {
     display: flex;
-    margin: 32px;
+    margin: 0 0 0 32px;
     justify-content: space-between;
     color: #6C6C6C;
     font-family: "Poppins", sans-serif;
@@ -89,4 +89,13 @@
 .detalhes li img {
     margin-right: 8px;
     
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+    justify-content: space-around;
+
 }
